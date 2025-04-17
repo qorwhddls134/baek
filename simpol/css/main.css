@@ -1,0 +1,39 @@
+@import url(default.css);
+@import url(font.css);
+@import url(common.css);
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 30px;
+}
+header .logo{
+    margin: 35px 0 0 0;
+}
+header .inner{
+    display: flex;
+    align-items: center; /* 위아래 가운데 */
+    gap: 65px;
+}
+header .inner .gnb ul{
+    display: flex;
+}
+header .inner .gnb ul li a{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    color: #1d1d1d;
+    line-height: 100px;
+    /* header의 높이랑 1차 메뉴의 a의 높이는 같아야함.. a에 행간을 header의 높이값으로 줌
+        a의 높이가 생기고 글자는 위아래 가운데 정렬 */
+    padding: 0 23px;
+}
+header .inner .shop{
+    font-size: 20px;
+    font-weight: 800;
+    color: #3d5718;
+    border: 1px solid #3d5718;
+    padding: 2px 26px;
+    border-radius: 17px;
+}
